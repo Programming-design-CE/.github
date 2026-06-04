@@ -1,5 +1,53 @@
 # Programming-design-CE
 
-## 📁 프로젝트 자료
-- [📄 보고서](https://github.com/Programming-design-CE/.github/blob/main/docs/%EB%8B%A8%EC%9B%85%EC%9D%98%20%EC%A0%84%EC%84%A4.docx)
-- [📄 제안서 PPT](https://drive.google.com/file/d/1E1mpJeSTRBg_sfAyWp-CwPWuOyAA-2m8/view?usp=drive_link)
+## 프로젝트 설명
+
+**단웅의 할일**는 팀 프로젝트와 개인 할 일을 함께 관리할 수 있는 캐릭터 기반 To-Do 서비스입니다.
+사용자는 공동 할일을 생성하고 팀원들과 업무를 나누어 진행할 수 있으며, 할일을 완료하면 마늘 보상을 획득하고 이를 통해 아이템을 구매해 캐릭터를 꾸밀 수 있습니다.
+
+## 팀원
+
+| 이름  |
+| --- |
+| 서준영 | 
+| 송현석 | 
+| 여채린 | 
+| 이효빈 | 
+
+## 핵심 기능
+
+* 회원가입 및 로그인
+* 친구 검색, 친구 요청, 승인 및 거절
+* 공동할일 그룹 생성 및 참가자 초대
+* 그룹별 할일 생성, 수정, 삭제, 상세 조회
+* 개인 담당 할일 조회 및 완료 처리
+* 할일 완료 시 마늘 보상 지급
+* 마늘 상점 아이템 구매
+* 보유 아이템 조회 및 캐릭터 적용
+* 개인 메모장 및 그룹 메모장
+* 공동할일 캘린더 조회
+* 그룹별 파일 업로드 및 폴더 관리
+
+## 기술 스택
+
+### Backend
+
+* Java
+* Spring Boot
+* Spring Security
+* JWT
+* Spring Data JPA
+* H2 Database
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+* Thymeleaf
+
+### Tools
+
+* Git
+* GitHub
+* Gradle
